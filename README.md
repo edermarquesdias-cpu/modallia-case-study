@@ -6,26 +6,34 @@ Modallia is a SaaS platform designed to help fashion sellers manage products, ge
 
 > This repository is a public case study. The main application source code is private because Modallia is a commercial product.
 
+## Visual Evidence
+
+See the curated screen map in [`docs/visual-evidence.md`](docs/visual-evidence.md).
+
 ## Overview
 
-The platform combines:
+The platform combines product management, authentication, AI-powered image generation, AI-assisted product descriptions, responsive public storefronts, social media content tools, image management, generation credits and production deployment.
 
-- product management;
-- authentication and user workflows;
-- AI-powered image generation;
-- AI-assisted product descriptions;
-- responsive public storefronts;
-- social media carousel creation;
-- image and asset management;
-- generation credit control;
-- production deployment.
+## Featured Workflows
+
+### Product management
+Users can register products, define audience and category, add descriptions, configure publication behavior and manage product information from the dashboard.
+
+### AI Studio
+Users select a product, define the generation context, follow progress and compare the original input with the AI-generated result before approval.
+
+### Public storefront
+Products are published in a responsive storefront with category navigation, promotional sections, image galleries, detail views and WhatsApp-driven conversion flows.
+
+### Social media content
+Carousel and Carousel Pro transform product visuals into reusable promotional assets.
+
+### Responsive experience
+Both the internal dashboard and public storefront were adapted for desktop and mobile usage.
 
 ## My Role
 
-My work included:
-
-- product planning;
-- requirements definition;
+- product planning and requirements definition;
 - AI-assisted full-stack development;
 - frontend implementation;
 - Supabase integration;
@@ -38,40 +46,27 @@ My work included:
 
 ## Tech Stack
 
-- Next.js
-- React
-- JavaScript
-- Supabase
-- PostgreSQL / SQL
-- OpenAI API
-- Vercel
-- Git / GitHub
+Next.js • React • JavaScript • Supabase • PostgreSQL / SQL • OpenAI API • Vercel • Git / GitHub
 
 ## Key Challenges
 
 ### Multi-user data isolation
-
 Separating user-owned data while keeping selected storefront information publicly accessible.
 
 ### Public and authenticated workflows
-
 Supporting protected dashboard functionality alongside public customer-facing storefronts.
 
 ### AI generation workflow
-
 Managing external AI requests, generation status, failures, retries and user feedback.
 
 ### Credit management
-
 Keeping AI generation usage synchronized with the platform's credit system.
 
 ### Image lifecycle
-
 Managing original and AI-generated images across creation, publication and deletion workflows.
 
 ### Responsive UX
-
-Adapting relatively complex product, AI and content creation workflows for desktop and mobile devices.
+Adapting complex product, AI and content creation workflows for desktop and mobile devices.
 
 ## Result
 
