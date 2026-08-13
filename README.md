@@ -8,8 +8,43 @@ Modallia is a SaaS platform designed to help fashion sellers manage products, ge
 
 ## Visual Evidence
 
-See the curated screen map in [`docs/visual-evidence.md`](docs/visual-evidence.md).
+### Dashboard
 
+![Modallia dashboard](docs/images/dashboard.webp)
+
+### Product Management
+
+![Modallia product management](docs/images/product-management.webp)
+
+### AI Studio
+
+![Modallia AI Studio](docs/images/ai-studio.webp)
+
+### AI Generation Workflow
+
+![Modallia AI generation progress](docs/images/ai-generation.webp)
+
+### Original vs AI Result
+
+![Modallia original versus AI result](docs/images/ai-result.webp)
+
+### Public Storefront
+
+![Modallia public storefront](docs/images/storefront.webp)
+
+### Product Detail
+
+![Modallia product detail](docs/images/product-detail.webp)
+
+### Carousel Pro
+
+![Modallia Carousel Pro](docs/images/carousel-pro.webp)
+
+### Mobile Experience
+
+![Modallia mobile experience](docs/images/mobile-experience.webp)
+
+A complete screen map is also available in [`docs/visual-evidence.md`](docs/visual-evidence.md).
 ## Overview
 
 The platform combines product management, authentication, AI-powered image generation, AI-assisted product descriptions, responsive public storefronts, social media content tools, image management, generation credits and production deployment.
